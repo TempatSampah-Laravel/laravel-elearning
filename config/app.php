@@ -30,6 +30,31 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Name
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of your application. This value is used when the
+    | framework needs to display the application's name within views or
+    | other parts of the system. Set this in your ".env" file.
+    |
+    */
+
+    'name' => env('APP_NAME', 'E-Learning SMP'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Site Title
+    |--------------------------------------------------------------------------
+    |
+    | A longer site title (for footers, headings) that can be set from the
+    | environment file. Defaults to the original hard-coded string.
+    |
+    */
+
+    'site_title' => env('SITE_TITLE', 'SISTEM INFORMASI E-LEARNING SMP'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application URL
     |--------------------------------------------------------------------------
     |

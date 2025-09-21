@@ -12,7 +12,7 @@
 @section('content')
 
     <div class="callout callout-danger" style="text-align: center; color: black;">
-        <h3> <b>SISTEM INFORMASI E-LEARNING SMP PGRI 1 BANDAR LAMPUNG </b></h3>
+  <h3> <b>{{ config('app.site_title') }}</b></h3>
         <h4 >Selamat Datang Guru!</h4>        
     </div>              
 

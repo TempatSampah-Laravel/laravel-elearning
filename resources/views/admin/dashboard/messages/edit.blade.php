@@ -72,7 +72,7 @@
                     <div class="form-group">
                         <label for="message" class="col-md-3 control-label">Pesan</label>
                           <div class="col-md-9">
-                            <textarea class="form-control" name="message" value="" placeholder="Pesan" rows="5">Diberitahukan Kepada Seluruh Siswa Kelas "{{$kelas_tugas}}" untuk segera Mengerjakan "{{$judul_tugas}}" tanggal "{{ date("d F Y",strtotime($tgl_tugas)) }}" - "{{$deskripsi_tugas}}".[Admin E-Learning SMP PGRI 1]</textarea>
+                            <textarea class="form-control" name="message" value="" placeholder="Pesan" rows="5">Diberitahukan Kepada Seluruh Siswa Kelas "{{$kelas_tugas}}" untuk segera Mengerjakan "{{$judul_tugas}}" tanggal "{{ date("d F Y",strtotime($tgl_tugas)) }}" - "{{$deskripsi_tugas}}".[Admin {{ config('app.name') }}]</textarea>
                           </div>      
                     </div>  
                   </div>                   
