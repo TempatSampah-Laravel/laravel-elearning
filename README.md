@@ -30,7 +30,3 @@
     <img src="screenshot/8-guru-detaildatasoal-ujian.png" >
 11. Edit Soal ujian Online
     <img src="screenshot/9-guru-editdatasoal-ujian.png" >
-12. Dashboard Admin
-    <img src="screenshot/10-dashboard-admin.png" >
-13. Halaman Login
-    <img src="screenshot/11-halaman-login.png" >
